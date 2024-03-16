@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: box;
+}
+
+:root {
+    --main-blue: #34436b;
+    --main-white: #e1dece;
+    --main-orange: #d17333;
+    --main-brown: #3b2316;
+}
+
+body {
+    background-repeat: no-repeat;
+    height: 20px;
+    font-family: 'Indie Flower', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.4;
+    background-color: var(--main-white);
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 1em;
+    padding: 10px;
+    color: var(--main-white);
+}
+
+li a {
+    text-decoration: none;
+    color: var(--main-white);
+}
+
+.name {
+    font-size: 75px;
+}
+
+.welcome-section {
+    background-color: var(--main-white);
+    color: var(--main-blue);
+    text-align: center;
+}
+
+h1 {
+    background-image: url(https://images.unsplash.com/photo-1620820186187-fc32e79adb74?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 280px;
+    border-bottom: 3px solid var(--main-brown);
+    margin-top: 70px;
+    color: var(--main-white);
+    font-size: 250px;
+    font-family: "Seaweed Script", cursive;
+}
+
+.images {
+    margin-top: auto;
+    margin-bottom: 50px;
+}
+
+.wife,
+.portrait,
+.mother {
+    position: block;
+    border-radius: 100%;
+    border: 5px solid var(--main-brown);
+    margin: 50px;
+}
+
+.fcc-projects {
+    color: var(--main-blue);
+    padding: 100px;
+    text-decoration: underline;
+    text-decoration-color: var(--main-orange);
+}
+
+.fcc-site:visited {
+    color: var(--main-orange);
+}
+
+.Projects {
+    text-align: center;
+    background-color: var(--main-white);
+}
+
+.projects-grid {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+    grid-gap: 5rem;
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    margin-left: 10%;
+}
+
+.project-tile:visited {
+    color: var(--main-orange);
+}
+
+.thumbnail {
+    border: 3px solid var(--main-orange);
+    border-radius: 10px;
+}
+
+.code {
+    font-family: 'Indie Flower', sans-serif;
+}
+
+
+.intro-p,
+.family-p {
+    width: 900px;
+    margin: 100px 0px 30px 100px;
+}
+
+.zion-img,
+.family {
+    float: right;
+    margin-right: 100px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+.graduation {
+    float: left;
+    margin-left: 50px;
+    margin-top: 200px;
+    border-radius: 20px;
+}
+
+.graduation-p {
+    padding-top: 150px;
+    width: 60%;
+    height: 200%;
+    margin-left: 720px;
+    margin-top: 20px;
+}
+
+.Contact {
+    border-top: 5px solid var(--main-orange);
+    text-align: center;
+}
+
+.contact-header {
+    bottom: 20px;
+    background-color: var(--main-blue);
+    color: var(--main-white);
+    font-family: 'Indie Flower', sans-serif;
+}
+
+.contact-section-link {
+    padding: 15px;
+    padding-top: 20;
+    background-color: var(--main-blue);
+}
+
+.footer {
+    background-color: var(--main-blue);
+    color: var(--main-white);
+}
+
+.logo {
+    border-radius: 40%;
+}
+
+.copyright {
+    font-size: 15px;
+    text-align: right;
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--main-blue);
+    border-bottom: 5px solid var(--main-orange);
+}
+
+@media (max-width:600px) {
+    body {
+        font-size: 60%;
+    }
+}
